@@ -1,0 +1,19 @@
+#subject {
+    background-color: gainsboro;
+    border-radius: 10%;
+    color: #a4a400;
+    border-style: solid;
+    border-color: aqua;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+section {
+    display: inline;
+}
+
+img {
+    padding: 0%;
+    margin: 0%;
+}
