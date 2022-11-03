@@ -1,9 +1,12 @@
+body {
+    background-image: url("/img/silverware.jpg");
+}
+
 #subject {
-    background-color: gainsboro;
+    background-color: #F0F0F0;
     border-radius: 10%;
     color: #a4a400;
     border-style: solid;
-    border-color: aqua;
     text-align: center;
     width: fit-content;
     height: fit-content;
@@ -11,9 +14,24 @@
 
 section {
     display: inline;
+    /* position: relative; */
+    box-sizing: border-box;
+}
+
+.photos {
+    text-align: center;
+    display: inline-block;
+    ;
+    margin: 0%;
+    border-left-color: #a4a400;
+    border-left-width: 10px;
+    border-left-style: solid;
 }
 
 img {
+    float: left;
+    border-radius: 100%;
+    width: 20%;
     padding: 0%;
     margin: 0%;
 }
