@@ -1,0 +1,79 @@
+body {
+    background-image: url("../img/silverware.jpg");
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+hr{
+    margin: 5%;
+    max-width: 1024px;
+    width: 120%;
+    color:#808080;
+    border-width: 2%;
+}
+.headings{
+    margin: auto;
+    padding: 2%;
+margin-bottom: 3%;
+    background-color: #F0F0F0;
+    border: solid #a4a400;
+    border-radius: 40%;
+    color: #a4a400;
+    width:40%;
+    text-align: center;
+}
+.x{
+    width: 60%;
+}
+img{  
+        border-radius: 100%;
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+    
+}
+#firstSentence{
+    display: block;
+
+    width: fit-content;
+    
+    margin: auto;
+    margin-bottom: 0%;
+}
+#plus{
+    width: auto;
+}
+.ingredients{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+box-sizing: border-box;
+column-count: 3;
+
+}
+
+ul{
+list-style-image: url("../img/fish_icon_24.png");}
+#firsthr{
+    max-width: 1042px;
+    border: 3px solid red;
+    margin-top: 1%;
+}
+.form{
+    padding-top: 2%;
+    margin: auto;
+    width: 50%;
+}
+fieldset{
+width: fit-content;
+}
+dl{
+    margin: 2%;
+    background-color: #ffffa1;
+}
+#link{
+    display: block;
+
+    width: fit-content;
+    
+    margin: auto;
+    color: #a4a400;
+}
