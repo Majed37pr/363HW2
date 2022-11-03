@@ -1,37 +1,43 @@
 body {
     background-image: url("/img/silverware.jpg");
+
+
 }
 
 #subject {
+    width: 50%;
+    margin: auto;
     background-color: #F0F0F0;
     border-radius: 10%;
     color: #a4a400;
     border-style: solid;
     text-align: center;
-    width: fit-content;
-    height: fit-content;
+   
 }
 
 section {
-    display: inline;
-    /* position: relative; */
-    box-sizing: border-box;
+    padding: 3%;
+    margin: auto;
+    width: 80%;
+  
+  -webkit-column-count:3;
+  -webkit-column-rule-color: #a4a400;
+  -webkit-column-gap: 10%;
+  -webkit-column-rule: medium solid #a4a400; 
+
+
+  column-count:3;
+   column-rule-color: #a4a400;
+   column-gap: 10%;
+   column-rule: medium solid #a4a400;
 }
 
-.photos {
-    text-align: center;
-    display: inline-block;
-    ;
-    margin: 0%;
-    border-left-color: #a4a400;
-    border-left-width: 10px;
-    border-left-style: solid;
-}
+
 
 img {
-    float: left;
+  
     border-radius: 100%;
-    width: 20%;
+    width: 100%;
     padding: 0%;
     margin: 0%;
 }
