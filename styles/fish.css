@@ -50,6 +50,19 @@ column-count: 3;
 
 }
 
+.k{
+   
+  -webkit-column-count:3;
+  -webkit-column-rule-color: #a4a400;
+  -webkit-column-gap: 10%;
+  -webkit-column-rule: medium solid #a4a400; 
+
+
+  column-count:3;
+   column-rule-color: #a4a400;
+   column-gap: 10%;
+   column-rule: medium solid #a4a400; 
+}
 ul{
 list-style-image: url("../img/fish_icon_24.png");}
 #firsthr{
